@@ -1,0 +1,26 @@
+<library>
+  <catalogue name="technical books">
+    <book>
+      <isbn>1234567890</isbn>
+      <title>Book 1</title>
+      <author>Author 1</author>
+    </book>
+    <book>
+      <isbn>0987654321</isbn>
+      <title>Book 2</title>
+      <author>Author 2</author>
+    </book>
+  </catalogue>
+  <catalogue name="cookery books">
+    <book>
+      <isbn>9876543210</isbn>
+      <title>Book 3</title>
+      <author>Author 3</author>
+    </book>
+    <book>
+      <isbn>0123456789</isbn>
+      <title>Book 4</title>
+      <author>Author 4</author>
+    </book>
+  </catalogue>
+</library>
