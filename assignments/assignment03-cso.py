@@ -1,8 +1,6 @@
-# Import requests and json libraries
 import requests
 import json
 
-# Define the URL for the dataset
 URL = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/JSON-stat/1.0/en"
 
 # Get the response from the URL
@@ -16,8 +14,8 @@ if response.status_code == 200:
     with open("cso.json", "w") as f:
         # Write the JSON data to the file
         json.dump(data, f)
-    # Print a success message
+
     print("The dataset has been saved to cso.json")
 else:
-    # Print an error message
+    
     print("The request failed with status code", response.status_code)
