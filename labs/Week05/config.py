@@ -1,4 +1,11 @@
-config = {
-    "htmltopdfkey":"EkdAUSo2oUdIOkiy0hbPpIQf84OjazEvxGTHiB7wWammg26uzTOZ1x0hvS6ZBjvb", "githubkey" : "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"
-}
+"""Local configuration for API-based coursework exercises.
 
+Set GITHUB_TOKEN and HTML_TO_PDF_API_KEY in your environment as needed.
+Never commit tokens or secrets to a public repository.
+"""
+import os
+
+config = {
+    "githubkey": os.getenv("GITHUB_TOKEN", ""),
+    "htmltopdfkey": os.getenv("HTML_TO_PDF_API_KEY", ""),
+}
