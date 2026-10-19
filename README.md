@@ -30,4 +30,4 @@ Course materials reference Andrew Beatty's [Data Representation teaching reposit
 
 ---
 
-[View selected complete projects](https://github.com/benjanning/programming2022).
+[View selected complete projects](https://benjanning.github.io/projects/).
